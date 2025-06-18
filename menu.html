@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclusive Voice - Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Main Content Wrapper -->
+        <div class="main-content-wrapper">
+            <!-- Header -->
+            <header class="app-header">
+                <div class="logo-container">
+                    <img src="./image/project logo.png" alt="Inclusive Voice Logo" class="logo">
+                </div>
+            </header>
+
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <h1 class="welcome-heading"><span>👋</span> Welcome back, Anushka!</h1>
+                <p class="welcome-message">You're doing amazing work helping us make communication more inclusive. Let's continue bridging the gap with every sign you recognize.</p>
+            </section>
+
+            <!-- Daily Tip Section -->
+            <section class="daily-tip-section">
+                <div class="tip-card">
+                    <div class="tip-header">
+                        <span class="tip-icon"><i class="fas fa-star"></i></span>
+                        <h2 class="tip-title">Daily Tip</h2>
+                        <button class="close-tip-btn"><i class="fas fa-times"></i></button>
+                    </div>
+                    <p class="tip-content">Practice makes perfect! Try to maintain consistent hand positioning and clear finger movements when practicing sign language. Good lighting also helps improve recognition accuracy.</p>
+                </div>
+            </section>
+
+            <!-- Recent Activity Section -->
+            <section class="recent-activity-section">
+                <div class="activity-card">
+                    <h2 class="activity-title">Recent Activity</h2>
+                    <ul class="activity-list">
+                        <li class="activity-item">
+                            <span class="activity-icon"><i class="fas fa-hand-paper"></i></span>
+                            <div class="activity-details">
+                                <p class="activity-name">Practiced "Hello" sign</p>
+                                <span class="activity-time">2 hours ago</span>
+                            </div>
+                            <span class="activity-status completed">Completed</span>
+                        </li>
+                        <li class="activity-item">
+                            <span class="activity-icon"><i class="fas fa-thumbs-up"></i></span>
+                            <div class="activity-details">
+                                <p class="activity-name">Learned "Thank you" sign</p>
+                                <span class="activity-time">5 hours ago</span>
+                            </div>
+                            <span class="activity-status completed">Completed</span>
+                        </li>
+                        <li class="activity-item">
+                            <span class="activity-icon"><i class="fas fa-comment-dots"></i></span>
+                            <div class="activity-details">
+                                <p class="activity-name">Session: Basic greetings</p>
+                                <span class="activity-time">Yesterday</span>
+                            </div>
+                            <span class="activity-status completed">Completed</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <a href="./recognition.html" class="profile-icon-link">
+                        <img src="./image/Vector.png" alt="Profile Icon" class="profile-icon">
+                    </a>
+                    <img src="./image/Profile image.png" alt="Profile" class="profile-img">
+                </div>
+                <p class="profile-name">Anushka Khadgi</p>
+                <p class="profile-email">anushkhadgi@gmail.com</p>
+                <i class="fas fa-chevron-down profile-dropdown-icon"></i>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="./profile.html" class="nav-link"><i class="fas fa-user-circle"></i> My Profile</a></li>
+                    <li><a href="./menu.html" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="./about.html" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="./contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <a class="logout-btn" href="./SignIn.html"><i class="fas fa-sign-out-alt"> </i> Log Out</a>
+        </aside>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+</html>
